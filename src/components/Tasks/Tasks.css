@@ -1,0 +1,25 @@
+.Tasks{
+    background-color: #ffffff;
+    padding: 10px;
+    margin:15px 10px 15px 10px;
+    border-radius: 4px;
+}
+.Tasks h4,p{
+margin: 0;
+}
+.Tasks p{
+    color: #6D7471;
+    font-size: 13px;
+}
+.Tasks .btn.priority p{
+    color: #856EC6;
+    font-size: 13px;
+    font-weight:600;
+    text-shadow: 0 0 10px #856EC6;
+    margin: 0;
+}
+
+.Tasks .d-flex p{
+    margin:0;
+    padding:0;
+}

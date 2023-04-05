@@ -1,0 +1,39 @@
+.MainSection{
+    background: #F0F0F0;
+    width: calc( 100vw - 200px );
+    margin: 0;
+    min-height: calc( 100vh - 44px );    
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 20px;
+    overflow-x: auto;
+}
+
+.MainSection .Tabs{
+    width: 300px;
+    flex: 0 0 auto;
+    margin-right: 10px;
+}
+.MainSection::-webkit-scrollbar {
+    display: none; 
+  }
+
+
+  .Tabs{
+    background-color: transparent;
+    border: 1px solid #C9D2CE;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+    max-height: 90vh;
+    overflow-y: scroll;
+}
+.Tabs .TabHeader{
+    background-color: #F2FAF6;
+    padding:10px;
+}
+.Tabs .TabHeader h4{
+    color: #414644;
+    margin: 0;
+    padding: 0;
+}
