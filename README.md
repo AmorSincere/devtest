@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 ### tepadan pastga re order kamchilikli.
-See the section about [video](https://www.youtube.com/watch?v=1EPQrdsfY9s) for more information.
+[video](https://www.youtube.com/watch?v=1EPQrdsfY9s)
 
 
 ## Available Scripts
