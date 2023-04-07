@@ -3,7 +3,9 @@ import { useState, useEffect } from "react";
 import Tasks from '../Tasks/Tasks'
 
 
-function MainSection() {
+function MainSection(props) {
+
+  const image_objects=props.image_objects
   const [data, setData] = useState(null);
   const [dropId, setDropId] = useState("");
 
@@ -71,7 +73,7 @@ function MainSection() {
       <div className="Tabs" id="tab1" onDragOver={e => DragOverFunc(e, "tab1")} onDragEnter={DragEnterFunc} onDrop={DragDropFunc}>
         <div className="TabHeader"><h4>Новые</h4></div>
         {data && data.map(task => (
-          <Tasks task={task} DragStartFunc={DragStartFunc} DragEndFunc={DragEndFunc}></Tasks>
+          <Tasks task={task} DragStartFunc={DragStartFunc} DragEndFunc={DragEndFunc} image_objects={image_objects}></Tasks>
         ))}
       </div>
 
