@@ -19,13 +19,10 @@ To view the site, simply clone the repository and run `npm start` from the root 
 
 ## Credits
 
-This project was created by [Your Name].
+This project was created by Abduqosim.
 
 Feel free to use or modify this project as needed for your own development purposes.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 
 # important to use json
@@ -35,5 +32,3 @@ This project is licensed under the [MIT License](LICENSE).
 ### tepadan pastga re order kamchilikli.
 [video](https://www.youtube.com/watch?v=1EPQrdsfY9s)
 
-
-### `npm start`
