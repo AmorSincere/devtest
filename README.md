@@ -29,6 +29,6 @@ Feel free to use or modify this project as needed for your own development purpo
 ### `npx json-server --watch  database/Tasks.json --port 8000`
 
 
-### tepadan pastga re order kamchilikli.
+### reorder in list not fully finished
 [video](https://www.youtube.com/watch?v=1EPQrdsfY9s)
 
